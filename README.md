@@ -1,1 +1,4 @@
 # Portfolio
+
+## Description:
+This portfolio showcases my skills, Education, Work Experience and projects as an Bsc IT graduate and as a current Bsc Honours computer science student, including coding projects, software development work, network configurations, and cybersecurity analysis. I have basic practical knowledge with programming languages like Java, Python, Javascript and C++, as well as databases, web development, and system administration. My projects demonstrate my problem-solving abilities, technical knowledge, and passion for innovation in the field of technology. I am always seeking to learn and grow in this ever-evolving industry.

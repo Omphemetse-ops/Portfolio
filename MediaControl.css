@@ -1,0 +1,14 @@
+
+@media screen and (max-width: 800px){
+    
+    /* Desktop nav disapear when size < 1200px */
+    #Desktop-nav
+    {
+        display: none;
+    }
+    
+    #MobileMenu-nav
+    {
+        display: flex;
+    }
+}

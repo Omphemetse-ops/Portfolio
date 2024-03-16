@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    color: rgb(85, 85, 85);
+}
+
+/* Transaction */ 
+a, btn{
+    transition: all 300ms ease;
+}
+
+/* Navigation */ 
+nav, .nav-links
+{
+    display: flex;
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+}
+
+.nav-links
+{
+    gap: 3rem;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #686868;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-underline-offset: 8px;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness: 3px;
+}
+
+/* Logo */ 
+.logo
+{
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+}
+
+/*Mobile Nav*/
+#MobileMenu-nav
+{
+    display: none;
+}
+
+.MobileMenu-menu
+{
+    position: relative;
+    display: inline-block;
+}
+
+/* Create menu 3 lines */
+.MobileMenu-icon
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.MobileMenu-icon span
+{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    transition: all 0.3 ease-in-out;
+}
+
+/* Menu items */
+.menu-links
+{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color:rgba(0, 0, 0, 0.4);
+    width: 200px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links a
+{
+    display: block;
+    padding: 7px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+    transition: all 0.1 ease-in-out;
+    text-underline-offset: 5px;
+}
+
+.menu-links li{
+    list-style: none;
+}
+
+.menu-links.open{
+    max-height: 300px;
+}
+
+/* Create close menu icon */
+.MobileMenu-icon.open span:first-child
+{
+    transform: rotate(45deg) translate(9px, 3px);
+}
+
+.MobileMenu-icon.open span:nth-child(2)
+{
+    opacity: 0;
+}
+
+.MobileMenu-icon.open span:last-child
+{
+    transform: rotate(-45deg) translate(9px, -3.1px);
+}
+
+.MobileMenu-icon span:first-child
+{
+    transform: none;
+}
+
+.MobileMenu-icon span:first-child
+{
+    opacity: 1;
+}
+
+.MobileMenu-icon span:first-child
+{
+    transform: none;
+}
