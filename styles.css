@@ -41,6 +41,7 @@ nav{
     list-style: none;
     font-size: 15px;
     font-weight: 500;
+    
 }
 
 a{
@@ -63,7 +64,11 @@ a:hover{
     font-size: 25px;
     font-weight: 700;
     color: black;
+    opacity: 0;
+    animation: slideRight 4s ease forwards;
+    animation-delay: .0.5s;
 }
+
 
 /*Mobile Nav*/
 #MobileMenu-nav
@@ -159,3 +164,5 @@ a:hover{
 {
     transform: none;
 }
+
+

@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Omphemetse Senna | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="MediaControl.css">
+    <link rel="stylesheet" href="Header.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <nav id="Desktop-nav">
@@ -20,10 +22,17 @@
                 <li><a href="#Contact">Contact</a></li>
             </ul>
         </div>
+        <div class="CV-btn">
+            <a href="#"><span>CV</span> Download</a>
+        </div>
+
     </nav>
     <!----Menu-->
     <nav id="MobileMenu-nav">
         <div class="logo">O'Sen</div>
+        <div class="CV-btn">
+            <a href="#"><span>CV</span> Download</a>
+        </div>
         <div class="MobileMenu-menu">
             <div class="MobileMenu-icon" onclick="toggleMenu()">
                 <span></span>
@@ -38,9 +47,29 @@
                 <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
                 <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+                
             </div>
         </div>
     </nav>
+
+    <section class="home">
+        <div class="home-contents">
+            <h3>Hello, It's me</h3>
+            <h1>Omphemetse Senna.</h1>
+            <h3>I am aspiring <span>Software engineering, Data scientist </span>and<span> Data Engineering. </span></h3>
+            <p>A recent IT graduate equipped with six months of experience in internal audit, passionate about software development and data science, I am proficient in programming languages such as Java and Python and experienced at working with data analysis tools such as SQL and Python. Possesses good problem-solving and analytical skills, coupled with a strong ability to collaborate and work as part of a team.</p>
+            <div class="Social-media">
+                <a href="#github"><span class="github"><i class='bx bxl-github'></i></span></a>
+                <a href="#linkedin"><span class="linkedin"><i class='bx bxl-linkedin' ></i></span></a>
+                
+            </div>
+        </div>
+
+        <div class="profile-image">
+            <img src="\Resources\image7.png" alt="">
+        </div>
+
+    </section>
 
 
     <script src="script.js"></script>

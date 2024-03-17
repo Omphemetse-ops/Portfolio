@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
     
     /* Desktop nav disapear when size < 1200px */
     #Desktop-nav
@@ -10,5 +10,46 @@
     #MobileMenu-nav
     {
         display: flex;
+    }
+}
+
+/* Animation*/
+@keyframes slideRight {
+    0%
+    {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideTop {
+    0%
+    {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes ZoomIn {
+    0%
+    {
+        transform: Scale(0);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: Scale(1);
+        opacity: 1;
     }
 }
