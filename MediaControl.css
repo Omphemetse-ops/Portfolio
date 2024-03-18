@@ -11,7 +11,78 @@
     {
         display: flex;
     }
+
+    #head-image img
+    {
+        width: 200px;
+        height: 200px;
+    }
+
+    #heading2
+    {
+        font-size: 20px;
+    }
+
+    #heading
+    {
+        font-size: 15px;
+    }
+
+    #heading3
+    {
+        display: none;
+    }
+
+    
+
+    
 }
+
+@media screen and (max-width: 1220px)
+{
+    #section-container
+    {
+        visibility: collapse;
+        display: none;
+    }
+
+    #education-details-small
+    {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+@media screen and (max-width: 1220px)
+{
+    #education-details-small
+    {
+        visibility:visible;
+        display: block ;
+        justify-content: center;
+        align-items: center;
+        margin-left: 150px;
+        margin-right: 150px;
+        background-color: #333;
+        color: orange;
+    }
+    
+    #year
+    {
+        color: aqua;
+    }
+
+    #modules
+    {
+        color: palevioletred;
+    }
+}
+
+
+
 
 /* Animation*/
 @keyframes slideRight {
